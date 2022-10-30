@@ -1,0 +1,11 @@
+import turtle
+turtle.showturtle()
+turtle.penup()
+turtle.goto(0, 75)
+turtle.pendown()
+turtle.goto(50, -75)
+turtle.goto(-75, 25)
+turtle.goto(75, 25)
+turtle.goto(-50, -75)
+turtle.goto(0, 75)
+turtle.done()

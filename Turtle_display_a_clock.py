@@ -1,0 +1,50 @@
+import turtle
+turtle.showturtle()
+#رسم الدائرة
+turtle.penup()
+turtle.goto(0, -150)
+turtle.pendown()
+turtle.circle(150)
+#كتابة الارقام
+turtle.penup()
+turtle.goto(0, -145)
+turtle.pendown()
+turtle.write("6")
+turtle.penup()
+turtle.goto(140, 0)
+turtle.pendown()
+turtle.write("3")
+turtle.penup()
+turtle.goto(-140, 0)
+turtle.pendown()
+turtle.write("9")
+turtle.penup()
+turtle.goto(0, 135)
+turtle.pendown()
+turtle.write("12")
+turtle.penup()
+turtle.goto(-15, -165)
+turtle.pendown()
+turtle.write("9:15:00")
+#علامة
+turtle.penup()
+turtle.goto(0, 0)
+turtle.pendown()
+turtle.write("*")
+#عقارب الساعة
+# عقرب الدقائق
+turtle.penup()
+turtle.goto(0, 0)
+turtle.pendown()
+turtle.forward(100)
+turtle.write("minutis")
+#عقرب الساعات
+turtle.penup()
+turtle.goto(0, 0)
+turtle.left(180)
+turtle.pendown()
+turtle.forward(75)
+turtle.write("hours")
+turtle.done()
+
+
